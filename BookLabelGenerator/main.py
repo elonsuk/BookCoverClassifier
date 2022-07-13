@@ -2,8 +2,8 @@ from tqdm import tqdm
 import json
 import openai
 
-openai.organization = "org-dpKom7PIpwoIeV44FCpAxa36"
-openai.api_key = "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"
+openai.organization = ""
+openai.api_key = ""
 
 book_list_file = open('list.txt', 'r')
 book_list = book_list_file.readlines()
